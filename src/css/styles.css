@@ -7,8 +7,8 @@
 :root{
     --color-font1:#ccc;
     --color-font2:#333;
-    --color-font3:rgb(179, 179, 133);
-    --color-font4:rgb(72, 72, 41);
+    --color-font3:rgb(13, 5, 161);
+    --color-font4:rgb(81, 81, 81);
     --gradient:linear-gradient(to top,rgba(0,0,0,0.6),rgba(0,0,0,0.3));
     --border-radius:20px;
     --font-size:1rem;
@@ -44,4 +44,15 @@ a:hover{
     min-height: 100vh;
     padding: 3rem;
     background-image: var(--gradient), url(../assets/imagem1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--color-font1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    
 }
